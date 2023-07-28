@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Tektur:wght@400;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Tektur;
+	font-weight: 400;
+	scroll-behavior: smooth;
+	text-decoration: none;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	background-color: black;
+	justify-content: space-between;
+}
+
+main {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 75vh;
+	border-bottom: 5px solid black;
+}
+
+
+
+.leftNav {
+	display: flex;
+	align-items: center;
+}
+
+#navPFP {
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	margin: 10px 20px;
+}
+
+#name {
+	font-size: 30px;
+	color: white;
+}
+
+.rightNav {
+	position: relative;
+	right: 20px;
+}
+
+.rightButtons {
+	font-size: 25px;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: whitesmoke;
+	cursor: pointer;
+	transition: 0.3s linear;
+}
+
+#aboutLink{
+	transition-delay: 100ms;
+}
+
+#projectsLink{
+	transition-delay: 200ms;
+}
+
+
+
+.leftMain {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	font-size: 25px;
+}
+
+#mainPFP {
+	position: relative;
+	top: 0px;
+	height: 70vh;
+	width: 50vh;
+	box-shadow: 5px 2px 2px rgb(91, 91, 91);
+}
+
+#mainName {
+	font-size: 40px;
+}
+
+#mainNameText {
+	font-family: Lumanosimo;
+	text-decoration: underline;
+}
+
+#mainDetail {
+	font-family: Lumanosimo;
+	font-size: 35px;
+}
+
+#aboutBTN {
+	width: 40%;
+	font-size: 30px;
+	position: relative;
+	left: 30%;
+	padding: 8px;
+	border-radius: 10px;
+	background-color: rgb(217, 218, 219);
+}
+
+.socials {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 10px;
+	position: relative;
+	top: 50px;
+}
+
+#discUser, #emailID {
+	font-family: Lumanosimo;
+	font-size: 30px;
+}
+
+#or {
+	font-size: 20px;
+}
+
+#social {
+	color: black;
+}
+
+
+
+

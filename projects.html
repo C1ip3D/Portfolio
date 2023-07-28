@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="projects.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="leftNav">
+        <img src="/media/pfp.png" id="navPFP" alt="My PFP" />
+        <h1 id="name">Corrupt</h1>
+      </div>
+      <div class="rightNav">
+        <button id="home" class="rightButtons">Home</button>
+        <button id="aboutLink" class="rightButtons">About</button>
+        <button id="projectsLink" class="rightButtons">
+          <a href="#projects">Projects</a>
+        </button>
+      </div>
+    </nav>
+
+    <main>
+      <div class="leftMain">
+        <h1 id="mainTitle">Weclome to my Project Page</h1>
+        <h2 id="mainDetail">All my Projects will be available on this page</h2>
+        <h2 id="mainEnjoy"><a href="#projects">Enjoy!</a></h2>
+      </div>
+      <div class="rightMain">
+        <h2 id="mainIMGTITLE">Newest Project!</h2>
+        <h1 id="mainProjectTitle">ShettiConnect</h1>
+        <img src="/media/shettiConnect.png" id="mainIMG" />
+      </div>
+    </main>
+
+    <div class="projects" id="projects">
+		<div class="project">
+			<h2 class="projectTitle">Shetti Connect</h2>
+			<img src="/media/shettiConnect.png" alt="Shetti Connect" class="projectImg">
+			<div class="text">
+				<p class="textP">Shetti Connect is my newest project and it is utilzing realtime database by <a href="https://firebase.google.com/?gad=1&gclid=Cj0KCQjw_O2lBhCFARIsAB0E8B9O4t_Uz17uRYrUB7SYjKdnHhCVtSZPSEjuPfDXZFnO9Nfysl4AGu8aAttEEALw_wcB&gclsrc=aw.ds" id="firebaseLink">Firebase.</a> It is currently under developement however it is scheduled to be released some time in the winter of 2023</p>
+			</div>
+		</div>
+		<div class="project">
+			<h2 class="projectTitle" id="Title2">Playstation Store Replica</h2>
+			<img src="/media/sonyReplica.png" alt="Playstation Store Replica" class="projectImg">
+			<p class="textP">I don't know why. Just deal with it. But basically I was minding my own buisness and I decided to replicate and random website. I spun a whell and it was playstation. I wake up one day and I open the playstation page BUT SONY CHANGED IT</p>
+		</div>
+
+    <div class="project">
+			<h2 class="projectTitle">DuckOS</h2>
+			<img src="/media/sonyReplica.png" alt="Playstation Store Replica" class="projectImg">
+			<p class="textP">This wasn't exactly started by me but I was on the contributors on the Project. It basically ends internet censorship. So head to the <a href="https://skyhax.lol" id="skyhaxLink">website</a>To get DuckOS and our new service of Kasm for free!</p>
+		</div>
+	</div>
+
+  <script src="/logic.js"></script>
+  <script src="/projects.js"></script>
+  </body>
+</html>
