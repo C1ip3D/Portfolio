@@ -81,10 +81,10 @@ main {
 }
 
 .projects {
-  /* display: grid;
+  display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 15px;
-  text-align: center; */
+  text-align: center;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -94,7 +94,7 @@ main {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 300px;
+  width: 360px;
 }
 
 .projectTitle {
@@ -112,6 +112,7 @@ main {
   margin-bottom: 16.5px;
 }
 .textP {
-  height: 50px;
+  height: 100px;
   overflow-y: scroll;
+  text-align: left;
 }
